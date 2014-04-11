@@ -1,5 +1,5 @@
 package model;
-// Generated 11-abr-2014 11:31:45 by Hibernate Tools 3.6.0
+// Generated 11-abr-2014 12:34:59 by Hibernate Tools 3.6.0
 
 
 import java.util.HashSet;
@@ -13,7 +13,7 @@ public class Ciudad  implements java.io.Serializable {
 
      private long id;
      private String nombre;
-     private Set<Cliente> clientes = new HashSet<Cliente>(0);
+     private Set clientes = new HashSet(0);
 
     public Ciudad() {
     }
@@ -23,7 +23,7 @@ public class Ciudad  implements java.io.Serializable {
         this.id = id;
         this.nombre = nombre;
     }
-    public Ciudad(long id, String nombre, Set<Cliente> clientes) {
+    public Ciudad(long id, String nombre, Set clientes) {
        this.id = id;
        this.nombre = nombre;
        this.clientes = clientes;
@@ -43,11 +43,11 @@ public class Ciudad  implements java.io.Serializable {
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
-    public Set<Cliente> getClientes() {
+    public Set getClientes() {
         return this.clientes;
     }
     
-    public void setClientes(Set<Cliente> clientes) {
+    public void setClientes(Set clientes) {
         this.clientes = clientes;
     }
 
