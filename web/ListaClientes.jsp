@@ -117,7 +117,7 @@
                         <td> ${item.telefono} </td>
                         <td> ${item.direccion} </td>
                         <td> ${item.email} </td>
-                        <td> ${item.ciudad.id} </td>
+                        <td> ${item.ciudad.nombre} </td>
                     </tr>
                     <c:set var="contador" value="${contador+1}" />
                 </c:forEach>

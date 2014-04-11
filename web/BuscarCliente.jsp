@@ -44,8 +44,8 @@
                   <tr>
                       <th>Id:</th>
                       <td>
-                          <c:if test="${cliente.id != null}"> ${cliente.id} </c:if>
-                          <c:if test="${cliente.id == null}"> n/a </c:if>
+                          <c:if test="${cliente.id != 0}"> ${cliente.id} </c:if>
+                          <c:if test="${cliente.id == 0}"> n/a </c:if>
                           <input name="clienteId" value="${cliente.id}" type="hidden" />
                       </td>
                   </tr>

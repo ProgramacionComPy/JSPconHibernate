@@ -17,7 +17,7 @@ import java.util.*;
 
 /**
  *
- * @author raps
+ * @author hugo
  */
 
 public class ClienteManager {
